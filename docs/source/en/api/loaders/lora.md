@@ -23,6 +23,7 @@ LoRA is a fast and lightweight training method that inserts and trains a signifi
 - [`AuraFlowLoraLoaderMixin`] provides similar functions for [AuraFlow](https://huggingface.co/fal/AuraFlow).
 - [`LTXVideoLoraLoaderMixin`] provides similar functions for [LTX-Video](https://huggingface.co/docs/diffusers/main/en/api/pipelines/ltx_video).
 - [`SanaLoraLoaderMixin`] provides similar functions for [Sana](https://huggingface.co/docs/diffusers/main/en/api/pipelines/sana).
+- [`HeliosLoraLoaderMixin`] provides similar functions for [HunyuanVideo](https://huggingface.co/docs/diffusers/main/en/api/pipelines/helios).
 - [`HunyuanVideoLoraLoaderMixin`] provides similar functions for [HunyuanVideo](https://huggingface.co/docs/diffusers/main/en/api/pipelines/hunyuan_video).
 - [`Lumina2LoraLoaderMixin`] provides similar functions for [Lumina2](https://huggingface.co/docs/diffusers/main/en/api/pipelines/lumina2).
 - [`WanLoraLoaderMixin`] provides similar functions for [Wan](https://huggingface.co/docs/diffusers/main/en/api/pipelines/wan).
@@ -86,6 +87,10 @@ LoRA is a fast and lightweight training method that inserts and trains a signifi
 
 [[autodoc]] loaders.lora_pipeline.SanaLoraLoaderMixin
 
+## HeliosLoraLoaderMixin
+
+[[autodoc]] loaders.lora_pipeline.HeliosLoraLoaderMixin
+
 ## HunyuanVideoLoraLoaderMixin
 
 [[autodoc]] loaders.lora_pipeline.HunyuanVideoLoraLoaderMixin
@@ -121,6 +126,10 @@ LoRA is a fast and lightweight training method that inserts and trains a signifi
 ## ZImageLoraLoaderMixin
 
 [[autodoc]] loaders.lora_pipeline.ZImageLoraLoaderMixin
+
+## CosmosLoraLoaderMixin
+
+[[autodoc]] loaders.lora_pipeline.CosmosLoraLoaderMixin
 
 ## KandinskyLoraLoaderMixin
 [[autodoc]] loaders.lora_pipeline.KandinskyLoraLoaderMixin

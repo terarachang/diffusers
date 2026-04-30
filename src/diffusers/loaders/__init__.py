@@ -78,12 +78,14 @@ if is_torch_available():
             "SanaLoraLoaderMixin",
             "Lumina2LoraLoaderMixin",
             "WanLoraLoaderMixin",
+            "HeliosLoraLoaderMixin",
             "KandinskyLoraLoaderMixin",
             "HiDreamImageLoraLoaderMixin",
             "SkyReelsV2LoraLoaderMixin",
             "QwenImageLoraLoaderMixin",
             "ZImageLoraLoaderMixin",
             "Flux2LoraLoaderMixin",
+            "CosmosLoraLoaderMixin",
         ]
         _import_structure["textual_inversion"] = ["TextualInversionLoaderMixin"]
         _import_structure["ip_adapter"] = [
@@ -116,8 +118,10 @@ if TYPE_CHECKING or DIFFUSERS_SLOW_IMPORT:
                 AuraFlowLoraLoaderMixin,
                 CogVideoXLoraLoaderMixin,
                 CogView4LoraLoaderMixin,
+                CosmosLoraLoaderMixin,
                 Flux2LoraLoaderMixin,
                 FluxLoraLoaderMixin,
+                HeliosLoraLoaderMixin,
                 HiDreamImageLoraLoaderMixin,
                 HunyuanVideoLoraLoaderMixin,
                 KandinskyLoraLoaderMixin,
